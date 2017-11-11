@@ -1,0 +1,125 @@
+.layout :global(img) {
+  max-width: 100%;
+}
+
+.layout :global(h1) {
+  font-weight: 800;
+  font-size: 28px;
+  text-align: center;
+}
+
+/* section 1 */
+.banner {
+  background-image: url('/img/home-bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  color: #FFF;
+  position: relative;
+  overflow: hidden;
+}
+
+.header {
+  background-color: transparent;
+  text-align: center;
+}
+
+.headerMenu {
+  float: right;
+  background-color: transparent;
+  color: #FFF;
+}
+
+.perkfecLogo {
+  float: left;
+  box-sizing: border-box;
+  display: inline-block;
+}
+
+.perkfecLogo :global(img) {
+  padding-top: 0;
+  padding-bottom: 0;
+  height: 50px;
+}
+
+.bannerContent {
+  height: 100%;
+  text-align: center;
+  padding-bottom: 30px;
+  box-sizing: border-box;
+}
+
+.bannerContent :global(h3) {
+  font-size: 18px;
+  line-height: 25px;
+  clear: both;
+  font-weight: normal;
+}
+
+.waitingList :global(h3) {
+  color: #F5FD0A;
+}
+
+.waitingList :global(.label) {
+  font-size: 1.8em;
+  margin: 10px 0;
+}
+
+.waitingList :global(.number) {
+  font-family: Arial;
+}
+
+.waitingList :global(.btnKnowMore) {
+  background-color: #F58320;
+  color: white;
+  height: 40px;
+  line-height: 40px;
+  padding: 0 50px;
+  margin-top: 15px;
+  font-size: 1.4em;
+}
+
+/* section 2 */
+.asSeenOn {
+  background-color: white;
+  padding: 10px 0 25px;
+}
+
+.asSeenOnLabel {
+  margin-bottom: 10px;
+  font-size: 16px;
+  text-align: left;
+  padding-left: 12px;
+  border-left: 2px solid #F58320;
+  color: #555;
+}
+
+.pressLogo {
+  margin-bottom: 15px;
+}
+
+/* section 3 */
+.joinWaitingList {
+  background-color: #0F87D2;
+  padding: 60px 0 80px;
+}
+
+.joinWaitingList :global(h1) {
+  color: #FFF;
+  margin-bottom: 20px;
+}
+
+.frmJoinWaitingList {
+  background-color: #FFF;
+  padding: 15px;
+  box-shadow: 0 2px 17px 0 rgba(0, 34, 90, 0.4);
+  border-radius: 3px;
+  max-width: 600px;
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .header {
+    text-align: right;
+  }
+}

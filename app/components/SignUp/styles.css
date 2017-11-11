@@ -1,0 +1,44 @@
+.signUpComponent :global(.ant-form-item) {
+  margin-bottom: 0;
+  margin-top: 5px;
+}
+
+.signUpComponent :global(.has-error .ant-input:focus),
+.signUpComponent :global(.ant-input:focus) {
+  box-shadow: none;
+}
+
+.inputGroupPassword > :global(.ant-input-affix-wrapper) {
+  width: auto;
+}
+
+.btnShowPassword {
+  display: table-cell;
+  border: none;
+}
+
+.stepComponent {
+  max-width: 300px;
+}
+
+.subHeader {
+  margin-top: 10px;
+}
+
+.steps_action {
+  margin-top: 24px;
+  text-align: right;
+}
+
+.steps_action :global(button) {
+  margin-left: 10px;
+}
+
+.inputEmail {
+  width: 300px;
+  margin-top: 10px;
+}
+
+.has-error .ant-input:focus {
+  box-shadow: none;
+}
